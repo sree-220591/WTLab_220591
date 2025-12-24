@@ -14,12 +14,16 @@
     font-size: 30px;
     align-items: center;
 } */
+
+/* *{
+   box-sizing: border-box;
+} */
  body{
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
 
     background-color: #f4f8f9;
     color: #1a1a1a;
@@ -69,6 +73,15 @@
    max-height: 70px;
  }
 
+ .ministry-section img{
+    max-height: 80px;
+ }
+
+ .ministry-section{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+ }
  main{
     flex: 1;
     display: flex;
@@ -306,3 +319,124 @@ aside li{
     color: #ffffff;
  }
 
+
+ .form-page{
+   flex:1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #f4f8f9;
+   padding:20px;
+ }
+
+.form-card{
+   background-color: #ffffff;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+   width: 100%;
+   max-width: 400px;
+}
+
+.form-card h2{
+   margin-top: 0;
+   margin-bottom: 5px;
+   color: #2f6f8f;
+   text-align:center;
+}
+
+.form-subtitle{
+   margin-top: 0;
+   margin-bottom: 20px;
+   font-size: 14px;
+   color: #1f3d4d;
+   text-align:center;
+}
+.form-card label{
+   display: block;
+   margin-bottom: 6px;
+   font-weight: bold;
+   color: #1f3d4d;
+}
+
+.form-card input,
+.form-card select{
+   width: 100%;
+   padding: 12px;
+   background-color: #2f6f8f;
+   color: white;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size:15px;
+   margin-bottom: 10px;
+}
+
+.form-card input::placeholder{
+   color: #d1e4e8;
+}
+
+.form-card button{
+   width: 100%;
+   padding: 10px 24px;
+   background-color: #2f6f8f;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size:16px;
+   margin-top: 10px auto 0;
+   display: block;
+}
+
+.form-card button:hover{
+   align-items: center;
+   background-color: #245c72;
+}
+
+.form-footer{
+   text-align:center;
+   margin-top: 15px;
+   font-size:14px;
+}
+
+.form-footer a{
+   color: #2f6f8f;
+   text-decoration: none;
+   font-weight : 20px;
+}
+
+@media (max-width: 500px){
+   main{
+      flex-direction: column;
+   }
+
+   nav, section, aside{
+      width: 100%;
+      border:none;
+      padding: 10px;
+   }
+
+   nav{
+      order:2;
+   }
+
+   section{
+      order:1;
+   }
+
+   aside{
+      order:3;
+      border-top:1px solid #c5dce2;
+   }
+
+   header{
+      flex-direction: column;
+      height: auto;
+      gap: 15px;
+      padding: 20px;
+   }
+   .form-card{
+      padding:20px;
+   }
+}
