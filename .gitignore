@@ -1,0 +1,39 @@
+# system files
+.DS_Store
+Thumbs.db
+
+# Python artifacts (if you ever used Python)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+env.bak/
+
+# Database
+db.sqlite3
+
+# Node
+node_modules/
+
+# IDE / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build/output
+dist/
+build/
+
+# Logs
+*.log
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# other
+coverage/
