@@ -8,7 +8,7 @@ A static website (HTML/CSS/JS) created as a web technologies lab project.
 - script.js — site JavaScript (carousel, UI behaviors)
 
 ## Local preview
-Open `Task01_Disaster_Management_HTML/index.html` in a browser, or run a simple HTTP server:
+Open `Task02_Disaster_Management_HTML/index.html` in a browser, or run a simple HTTP server:
 
 - Python 3:
   ```bash
