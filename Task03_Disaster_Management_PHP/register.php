@@ -1,3 +1,41 @@
+<?php
+include "db.php";
+
+if(isset($_POST['register'])){
+
+    $name   = mysqli_real_escape_string($conn, $_POST['name']);
+    $email  = mysqli_real_escape_string($conn, $_POST['email']);
+    $mobile = mysqli_real_escape_string($conn, $_POST['mobile']);
+    $role   = mysqli_real_escape_string($conn, $_POST['role']);
+    $pass   = mysqli_real_escape_string($conn, $_POST['password']);
+
+   
+    $check = "SELECT * FROM users WHERE email='$email'";
+    $res = mysqli_query($conn, $check);
+
+    if(mysqli_num_rows($res) > 0){
+        echo "<script>alert('Email already registered!');</script>";
+    } else {
+
+       
+        $hashed = password_hash($pass, PASSWORD_DEFAULT);
+
+        $query = "INSERT INTO users (name,email,mobile,role,password)
+                  VALUES ('$name','$email','$mobile','$role','$hashed')";
+
+        if(mysqli_query($conn, $query)){
+            echo "<script>
+                alert('Registration successful!');
+                window.location.href='login.php';
+            </script>";
+        } else {
+            echo "<script>alert('Registration failed!');</script>";
+        }
+
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,15 +64,14 @@
             <h2>Create an Account</h2>
             <p class="form-subtitle">Join us today</p>
 
-            <form action="" method="post">
+            <form action="" method="POST">
                 <label for="username">Name</label>
-                <input type="text" id="username" name="username" placeholder="Enter your full name" required>
-
+                <input type="text" id="username" name="name" placeholder="Enter your full name" required>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-                <label for="mobile_number">Mobile Number</label>
-                <input type="tel" id="mobile_number" name="mobile_number" placeholder="Enter your mobile number" required>
+                <label for="mobile">Mobile Number</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
 
                 <label for="role">Role</label>
                 <select id="role" name="role" required>
@@ -47,10 +84,10 @@
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Create a password" required> 
                 
-                <button type="submit" class="submit-button">Register</button>
+                <button type="submit" class="submit-button" name="register">Register</button>
             </form>
 
-            <p class="form-footer">Already have an account?<a href="login.html"> Login</a></p>
+            <p class="form-footer">Already have an account?<a href="login.php"> Login</a></p>
 
         </div>
 
