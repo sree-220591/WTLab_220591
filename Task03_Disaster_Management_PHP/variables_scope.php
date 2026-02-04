@@ -24,7 +24,8 @@ echo var_dump($float_var)."<br>";
 echo "Boolean Variable: " . ($bool_var ? 'true' : 'false') . "<br>";
 echo "Type of Boolean Variable: " . gettype($bool_var) . "<br>";
 
-echo "Array Variable: ";
+echo "Array Variable : ".$array_var."<br>";
+echo "Type of Array Variable: ".gettype($array_var)."<br>";
 
 print_r($array_var);
 echo "<br>";
