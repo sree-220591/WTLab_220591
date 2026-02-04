@@ -9,6 +9,16 @@ if(isset($_POST['register'])){
     $role   = mysqli_real_escape_string($conn, $_POST['role']);
     $pass   = mysqli_real_escape_string($conn, $_POST['password']);
 
+    $name   = trim($name);
+    $email  = trim($email);
+    $mobile = trim($mobile);
+    $role   = trim($role);
+
+    $name   = htmlspecialchars($name);
+    $email  = htmlspecialchars($email);
+    $mobile = htmlspecialchars($mobile);
+
+    $name = ucwords(strtolower($name));
    
     $check = "SELECT * FROM users WHERE email='$email'";
     $res = mysqli_query($conn, $check);
@@ -19,7 +29,7 @@ if(isset($_POST['register'])){
         
         //Validate input length
         if (strlen($pass) < 8) {
-            echo "<script>alert('Password must be at least 6 characters long!');</script>";
+            echo "<script>alert('Password must be at least 8 characters long!');</script>";
             die();
         }
        

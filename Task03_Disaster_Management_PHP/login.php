@@ -4,38 +4,51 @@ include "db.php";
 
 if(isset($_POST['login'])){
 
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $pass  = mysqli_real_escape_string($conn, $_POST['password']);
+    $email    = trim($_POST['email']);
+    $password = trim($_POST['password']);
+
+
+    $email = htmlspecialchars($email);
+    $password = htmlspecialchars($password);
+
+    $email = strtolower($email); 
+
+    if(!$conn){
+        die(" Database connection failed");
+    }
+
 
     $query = "SELECT * FROM users WHERE email='$email'";
-    $res = mysqli_query($conn, $query);
+    $result = mysqli_query($conn, $query);
 
-    if(mysqli_num_rows($res) == 1){
-
-        $user = mysqli_fetch_assoc($res);
-
-        
-        if(password_verify($pass, $user['password'])){
-
-        
-            $_SESSION['user_id'] = $user['id'];
-            $_SESSION['name']    = $user['name'];
-            $_SESSION['role']    = $user['role'];
-            $_SESSION['email']   = $user['email'];
-
-            echo "<script>
-                alert('Login successful!');
-                window.location.href='Dashboard.php';
-            </script>";
-
-        } else {
-            echo "<script>alert('Invalid password');</script>";
-        }
-
-    } else {
-        echo "<script>alert('User not found');</script>";
+    if(!$result){
+        die(" Query failed");
     }
+
+    if(mysqli_num_rows($result) == 0){
+        echo "User not found";
+        die();
+    }
+
+    $user = mysqli_fetch_assoc($result);
+
+    if(strcasecmp($user['email'], $email) !== 0){
+        print " Email mismatch";
+        die();
+    }
+
+    if(!password_verify($password, $user['password'])){
+        echo "Invalid password";
+        die();
+    }
+
+ 
+    echo "Login successful!";
+    print "<br>Welcome ".$user['name'];
+
+   
 }
+
 ?>
 
 

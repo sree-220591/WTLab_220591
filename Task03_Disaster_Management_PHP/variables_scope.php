@@ -15,9 +15,11 @@ echo var_dump($string_var) . "<br>";
 
 echo "Integer Variable: " . $int_var . "<br>";
 echo "Type of Integer Variable: " . gettype($int_var) . "<br>";
+echo var_dump($int_var)."<br>";
 
 echo "Float Variable: " . $float_var . "<br>";
 echo "Type of Float Variable: " . gettype($float_var) . "<br>";
+echo var_dump($float_var)."<br>";
 
 echo "Boolean Variable: " . ($bool_var ? 'true' : 'false') . "<br>";
 echo "Type of Boolean Variable: " . gettype($bool_var) . "<br>";
