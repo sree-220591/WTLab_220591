@@ -16,7 +16,12 @@ if(isset($_POST['register'])){
     if(mysqli_num_rows($res) > 0){
         echo "<script>alert('Email already registered!');</script>";
     } else {
-
+        
+        //Validate input length
+        if (strlen($pass) < 8) {
+            echo "<script>alert('Password must be at least 6 characters long!');</script>";
+            die();
+        }
        
         $hashed = password_hash($pass, PASSWORD_DEFAULT);
 
