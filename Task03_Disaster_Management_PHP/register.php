@@ -60,7 +60,7 @@ if(isset($_POST['register'])){
 
     <main class="form-page">
         <div class="form-card">
-            <a href="index.html" class="back-link"> << Back to Home</a>
+            <a href="index.php" class="back-link"> << Back to Home</a>
             <h2>Create an Account</h2>
             <p class="form-subtitle">Join us today</p>
 

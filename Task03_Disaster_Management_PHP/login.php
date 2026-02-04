@@ -65,7 +65,7 @@ if(isset($_POST['login'])){
         
         <div class="form-card">
 
-            <a href="index.html" class="back-link"> << Back to Home</a>
+            <a href="index.php" class="back-link"> << Back to Home</a>
             <h2>Welcome Back</h2>
             <p class="form-subtitle">Sign in to continue</p>
 
