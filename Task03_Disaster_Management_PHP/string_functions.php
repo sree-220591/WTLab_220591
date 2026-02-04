@@ -7,7 +7,7 @@ echo "<hr>";
 // while a user input string is obtained from external sources like forms.
 
 $hardcodedString = "Pani chusko!";
-$userInputString = "<script>prompt('Enter your name: ');</script>";
+$userInputString = $_POST['user_input'] ?? "No input provided";
 
 echo "Hardcoded String: ".$hardcodedString."<br>";
 echo "User Input String: ".$userInputString."<br>";
