@@ -38,14 +38,17 @@ if(isset($_POST['login'])){
     }
 
     if(!password_verify($password, $user['password'])){
-        echo "Invalid password";
+        print " Incorrect password";
         die();
     }
 
- 
-    echo "Login successful!";
-    print "<br>Welcome ".$user['name'];
+    $_SESSION['user_id'] = $user['id'];
+    $_SESSION['user_name'] = $user['name'];
+    $_SESSION['user_email'] = $user['email'];
+    $_SESSION['user_role'] = $user['role'];
 
+    header("Location: dashboard.php");
+    exit();
    
 }
 

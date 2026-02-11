@@ -58,6 +58,7 @@
             <ul>
                 <li><a href="register.php">Register</a></li>
                 <li><a href="login.php">Login</a></li>
+                <li><a href="file_upload.php">Upload Files</a></li>
             </ul>
 
             <h3>More</h3>

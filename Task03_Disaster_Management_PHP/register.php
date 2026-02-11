@@ -1,4 +1,5 @@
 <?php
+session_start();
 include "db.php";
 
 if(isset($_POST['register'])){
@@ -46,6 +47,9 @@ if(isset($_POST['register'])){
         } else {
             echo "<script>alert('Registration failed!');</script>";
         }
+
+        header("Location: login.php");
+        exit();
 
     }
 }
