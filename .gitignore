@@ -1,3 +1,7 @@
+# Ignore environment files containing secrets
+/.env
+Task_OAuth/client_id.env
+*.env
 # system files
 .DS_Store
 Thumbs.db
