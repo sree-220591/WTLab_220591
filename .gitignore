@@ -37,3 +37,4 @@ build/
 
 # other
 coverage/
+Task_OAuth/client_id.env
