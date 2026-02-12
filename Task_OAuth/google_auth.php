@@ -1,6 +1,10 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
-require_once 'vendor/autoload.php'; // only if using composer
+
+require_once __DIR__ . '/vendor/autoload.php';
 
 $env = parse_ini_file(__DIR__ . '/client_id.env');
 
