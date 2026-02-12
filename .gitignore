@@ -38,3 +38,6 @@ build/
 # other
 coverage/
 Task_OAuth/client_id.env
+*.env
+client_id.env
+

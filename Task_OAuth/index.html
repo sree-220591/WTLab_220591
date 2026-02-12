@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OAuth Demo</title>
+  <style>
+    body{
+      font-family:Arial;
+      background:#f5f6fa;
+      display:flex;
+      height:100vh;
+      align-items:center;
+      justify-content:center;
+    }
+    .google-btn{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:14px 22px;
+      border:1px solid #ddd;
+      border-radius:8px;
+      background:#fff;
+      cursor:pointer;
+      font-size:15px;
+      font-weight:600;
+      transition:0.2s;
+    }
+    .google-btn:hover{
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+      transform:translateY(-1px);
+    }
+    .google-btn img{
+      width:22px;
+    }
+  </style>
+</head>
+<body>
+
+<a href="google_auth.php" style="text-decoration:none;color:black;">
+  <div class="google-btn">
+    <img src="icon.png">
+    Sign in with Google
+  </div>
+</a>
+
+</body>
+</html>
