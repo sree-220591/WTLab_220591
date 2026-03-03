@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | HAnds iN neeD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logo-2.png">
+</head>
+<body>
+    
+    <header>
+        <div>
+            <img src="Logo-2.png" alt="Logo">
+        </div>
+
+        <div>
+            <h1>Login</h1>
+            <p>Login to access your account</p>
+        </div>
+    </header>
+
+    <main class="form-page">
+        
+        <div class="form-card">
+
+            <a href="index.html" class="back-link"> << Back to Home</a>
+            <h2>Welcome Back</h2>
+            <p class="form-subtitle">Sign in to continue</p>
+
+            <form action="../backend/authController.php" method="POST">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit" class="submit-button" name="login">Login</button>
+            </form>
+
+            <p class="form-footer">Don't have an account?<a href="register.html"> Register</a></p>
+
+        </div>
+
+    </main>
+</body>
+</html>
