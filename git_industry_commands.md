@@ -62,7 +62,8 @@
 4)Command: git clone --depth <br>
   Syntax: git clone --depth <n> <repository-url> [destination-folder] <br>
   Purpose: create a shallow clone of a repository, which significantly reduces download time and disk space usage by limiting the commit history to a specified number of recent commits<br>
-  Example: 
+  <img width="883" height="140" alt="image" src="https://github.com/user-attachments/assets/68fc9cae-eab3-46f2-b556-9e80a1666468" /> <br>
+
 
 
 
