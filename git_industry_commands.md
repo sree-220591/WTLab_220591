@@ -64,6 +64,60 @@
   Purpose: create a shallow clone of a repository, which significantly reduces download time and disk space usage by limiting the commit history to a specified number of recent commits<br>
   <img width="883" height="140" alt="image" src="https://github.com/user-attachments/assets/68fc9cae-eab3-46f2-b556-9e80a1666468" /> <br>
 
+>3)Repository Status & Inspection<br>
+1)Command: git status<br>
+  Purpose: Current repository state chudataniki use chestam<br>
+
+Shows:<br>
+
+Modified files → changed but not staged (git add cheyyaledu)<br>
+
+Staged files → ready for commit<br>
+
+Untracked files → new files Git ki teliyadu<br>
+
+Current branch → e branch lo unnava<br>
+
+Any commits not pushed<br>
+<img width="630" height="193" alt="image" src="https://github.com/user-attachments/assets/e17365f1-8a0f-447b-bcc8-819710fc9c28" /><br>
+<img width="633" height="226" alt="image" src="https://github.com/user-attachments/assets/bc86dc36-9851-4315-8830-751342c2386f" /><br>
+
+2)Command: git log<br>
+  Purpose: See detailed history of commits in the repository.<br>
+  Example: Repo lo anni __commits history__ chudataniki<br>
+Shows:
+Commit hash (full long), 
+Author name,
+Date & time,
+Commit message,
+<img width="630" height="244" alt="image" src="https://github.com/user-attachments/assets/74350fd1-c5d6-40f1-877d-c8136162f9eb" /><br>
+
+3)Command: git log --oneline<br>
+  Purpose: Short / concise history<br>
+  Each commit -> one line -> first 7 chars of hash + commit message<br>
+<img width="731" height="238" alt="image" src="https://github.com/user-attachments/assets/4bb806d1-be63-4a3f-b83b-e9cf560ab854" /><br>
+
+4)Command: git log --graph<br>
+  Purpose: Shows commit history graphically with branches in terminal<br>
+  <img width="732" height="256" alt="image" src="https://github.com/user-attachments/assets/15d77bd6-61c0-49d4-81c1-033440d64df6" /><br>
+  <img width="747" height="260" alt="image" src="https://github.com/user-attachments/assets/f22cc752-24d7-400a-84c2-8fc1ed536f9d" /><br>
+
+5)Command: git show<br>
+Purpose: used to display information and the content of various Git objects, such as commits, tags, trees, and blobs<br>
+<img width="747" height="260" alt="image" src="https://github.com/user-attachments/assets/589700af-5a8f-4185-8bfa-cff71769a1d3" /><br>
+
+6)Command: git diff<br>
+  Purpose: Compare working directory vs staging area / last commit <br>
+Shows what changes you made before committing <br>
+<img width="605" height="229" alt="image" src="https://github.com/user-attachments/assets/e92342b7-6233-41b3-b16c-c309b2792235" /><br>
+
+7)Command: git blame <br>
+  Synatx: git blame <file-path> <br>
+  Purpose:helps developers trace the history of a file by annotating each line with information about the last revision and author who modified it.<br>
+
+
+
+
 
 
 
