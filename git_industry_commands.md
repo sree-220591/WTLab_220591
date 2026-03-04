@@ -36,6 +36,15 @@
    Example: git config --unset user.email <br>
    By default, it removes the configuration settings from the local only, config details in global remain the same. 
    <img width="607" height="52" alt="image" src="https://github.com/user-attachments/assets/0cf90bea-52e4-4c35-91aa-2a69ac60cd00" /><br>
+   
+>2)Repository Setup Commands
+<br>
+1) Command: git init <br>
+   Syntax: git init <directory> <br>
+   Purpose: used to create a new, empty Git repository in a specified or the current directory.<br>
+   Example: for suppose we created a Git_Demo and initialised it as a local git repository.<br>
+   <img width="586" height="76" alt="image" src="https://github.com/user-attachments/assets/38fcbb40-5133-492a-b97b-0a359e1aa880" /> <br>
 
-   
-   
+2)Command: git clone
+  Syntax: git clone "repo-url"
+
