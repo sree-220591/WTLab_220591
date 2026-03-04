@@ -48,5 +48,10 @@
 2)Command: git clone<br>
   Syntax: git clone "repo-url"<br>
   Purpose: used to create a local, working copy of an existing remote repository. This copy includes all files, branches, and the complete commit history of the project. <br>
-  Example: Suppose your company has a remote repository named Project-Q with some initial files, and wanted your team to work on that, so everyone creates a clone in their local repository and works on that project,
+  Example: Suppose your company has a remote repository named Project-timepass, and wanted your team to work on that, so everyone creates a clone in their local repository and works on that project,<br>
+ <img width="752" height="54" alt="image" src="https://github.com/user-attachments/assets/43493aad-bd1a-4a30-9ae3-28920f3a8bd2" />
+ <br>
+ 
+
+
 
