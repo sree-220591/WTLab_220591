@@ -112,8 +112,22 @@ Shows what changes you made before committing <br>
 <img width="605" height="229" alt="image" src="https://github.com/user-attachments/assets/e92342b7-6233-41b3-b16c-c309b2792235" /><br>
 
 7)Command: git blame <br>
-  Synatx: git blame <file-path> <br>
+  Syntax: git blame <file-path> <br>
   Purpose:helps developers trace the history of a file by annotating each line with information about the last revision and author who modified it.<br>
+  <img width="885" height="443" alt="image" src="https://github.com/user-attachments/assets/831bd90d-e404-4747-ada3-0d481f377d68" /><br>
+  <img width="886" height="124" alt="image" src="https://github.com/user-attachments/assets/8270f981-0c7e-4022-9dec-1bc1b69f7305" /><br>
+
+8)Command: git reflog<br>
+  Purpose: the primary use of __git reflog__ is to recover lost work<br>
+  <img width="855" height="313" alt="image" src="https://github.com/user-attachments/assets/6e28154c-3dc6-421b-bb99-3eef9d1706f1" /><br>
+
+9)Command: git shortlog<br> 
+  Purpose: used to summarize the output of git log by grouping commits by author<br>
+  <img width="853" height="328" alt="image" src="https://github.com/user-attachments/assets/c026c361-360c-4719-b0d7-ccc9f3ac19cf" /><br>
+
+
+  
+
 
 
 
