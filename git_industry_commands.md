@@ -51,7 +51,18 @@
   Example: Suppose your company has a remote repository named Project-timepass, and wanted your team to work on that, so everyone creates a clone in their local repository and works on that project,<br>
  <img width="752" height="54" alt="image" src="https://github.com/user-attachments/assets/43493aad-bd1a-4a30-9ae3-28920f3a8bd2" />
  <br>
- 
+
+3)Command: git clone --branch<br>
+  Syntax: git clone --branch <branch-name> <repo-link><br>
+  Purpose: to clone a specific branch from a remote repository<br>
+  Example: Repo lo branch → feature-login 
+  <br>Local lo branch levu → default branch main matrame clone avuthundi<br>
+ <img width="883" height="140" alt="image" src="https://github.com/user-attachments/assets/479a2f81-2119-48b2-b509-b1f89d077852" /><br>
+
+4)Command: git clone --depth <br>
+  Syntax: git clone --depth <n> <repository-url> [destination-folder] <br>
+  Purpose: create a shallow clone of a repository, which significantly reduces download time and disk space usage by limiting the commit history to a specified number of recent commits<br>
+  Example: 
 
 
 
