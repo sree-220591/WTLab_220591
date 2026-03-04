@@ -45,6 +45,8 @@
    Example: for suppose we created a Git_Demo and initialised it as a local git repository.<br>
    <img width="586" height="76" alt="image" src="https://github.com/user-attachments/assets/38fcbb40-5133-492a-b97b-0a359e1aa880" /> <br>
 
-2)Command: git clone
-  Syntax: git clone "repo-url"
+2)Command: git clone<br>
+  Syntax: git clone "repo-url"<br>
+  Purpose: used to create a local, working copy of an existing remote repository. This copy includes all files, branches, and the complete commit history of the project. <br>
+  Example: Suppose your company has a remote repository named Project-Q with some initial files, and wanted your team to work on that, so everyone creates a clone in their local repository and works on that project,
 
