@@ -50,7 +50,8 @@
   Syntax: git clone "repo-url"<br>
   Purpose: used to create a local, working copy of an existing remote repository. This copy includes all files, branches, and the complete commit history of the project. <br>
   Example: Suppose your company has a remote repository named Project-timepass, and wanted your team to work on that, so everyone creates a clone in their local repository and works on that project,<br>
- <img width="752" height="54" alt="image" src="https://github.com/user-attachments/assets/43493aad-bd1a-4a30-9ae3-28920f3a8bd2" />
+ <img width="786" height="124" alt="image" src="https://github.com/user-attachments/assets/41c040a4-979b-49e6-b18a-b4328da7ae40" />
+
  <br>
 
 3)Command: git clone --branch<br>
@@ -130,7 +131,8 @@ Shows what changes you made before committing <br>
 1)Command: git add<br>
   Syntax: git add <file-name><br>
   Purpose: manam local ga edit chesina modify chesina create chesina files anni git loki add cheyadam kosam git add use chestham.<br>
-  Example: 
+  Example: For suppose, nenu oka new file ni create chesa, adi untracked stage lo untundi ante git ki telsu file undi ani kani track cheyaledhu, alantappudu git add command use chesthe file tracking start avutundi(love track shuru roii❤️ )<br>
+<img width="609" height="559" alt="image" src="https://github.com/user-attachments/assets/38d28f0c-4180-40aa-b87f-33b2a7c0858d" /><br>
 
 2)Command: git add .<br>
   Syntax: git add .<br>
