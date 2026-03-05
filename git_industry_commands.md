@@ -186,24 +186,39 @@ So developer line-level control maintain cheyyachu. <br>
 >5)Commit Commands
 
 1)Command: git commit <br>
-  Syntax: <br>
-  Purpose: <br>
-  Example: <br>
+  Syntax: git commit<br>
+  Purpose: Saves a snapshot of your project's staged changes to the local repository's history.<br>
+  Before running git commit, you must use __git add__ to move modified or new files from your working directory to the staging area (index). <br>
+  Only __git commit__ matrame use chesthe Git editor open chestundi.
+  Example:  Only __git commit__ matrame use chesthe Git editor open chestundi.<br>
+  Industry lo detailed commit messages kosam idi use chestaru.<br>
+  <img width="940" height="479" alt="image" src="https://github.com/user-attachments/assets/26f9eb35-9300-44cd-a8dc-ea0a0aa8c0a0" /><br>
 
-2)Command: git commit -m
-  Syntax: <br>
-  Purpose: <br>
-  Example: <br>
+2)Command: git commit -m <br>
+  Syntax: git commit -m "message"<br>
+  Purpose: commit ki short message ivvadam kosam idi use chestham.. <br>
+  Example: git commit -m "Added login page UI"<br>
+  <img width="649" height="72" alt="image" src="https://github.com/user-attachments/assets/f80fffb1-8da1-41b3-842c-e982de431061" />br>
 
 3)Command: git commit --amend<br>
-  Syntax: <br>
-  Purpose: <br>
-  Example: <br>
+  Syntax:__git commit --amend__ <br>
+  Purpose:Used to modify the last commit. <br>
+  Example:Fixing a commit message typo.<br>
+Adding forgotten files or changes to the previous commit.<br>
+Combining multiple small changes into a single, cleaner commit. <br>
+<img width="642" height="210" alt="image" src="https://github.com/user-attachments/assets/8a2de944-639b-49af-b5aa-e07378ebf0ca" /><br>
+<br>
+Idi bad commit ni modify cheyadaniki kuda use cheyochhu, for eg: nuvvu oka commit msg "fix" ani ichavu anuko it doesnot give any meaning to the commit, so nuvvu appudu em cheyochu ante just __git commit --amend -m "Bug fixed in validation.js"__ ani ivochu so that same modification ni good commit message tho commit log lo replace cheyochu<br>
 
-4)Command: git commit --no-edit
-  Syntax: <br>
-  Purpose: <br>
-  Example: <br>
+
+4)Command: git commit --no-edit<br>
+  Syntax: git commit --amend --no-edit <br>
+  Purpose: add currently staged changes to the most recent commit without opening the commit message editor <br>
+  Example: For suppose nuvvu oka file ni add chesi commit chesavu, next file add cheyyadam marchipoyavu, so __git commit --amend --no-edit ante previous commit message tho ne oka new commit create avutundi.. <br>
+  <img width="681" height="206" alt="image" src="https://github.com/user-attachments/assets/ab62d5ab-4633-4936-b3e5-bc5e1df42175" /><br>
+  Commit message anedi same ga ne untundi, but new files kuda add avutayi under same commit msg<br>
+  <img width="609" height="156" alt="image" src="https://github.com/user-attachments/assets/82b37526-a8bb-429b-94e1-185ca4148e3b" /><br>
+  
 
 >6)Branch Management Commands
 
