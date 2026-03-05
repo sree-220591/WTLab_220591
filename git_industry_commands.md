@@ -206,7 +206,6 @@ So developer line-level control maintain cheyyachu. <br>
   Example:Fixing a commit message typo.<br>
 Adding forgotten files or changes to the previous commit.<br>
 Combining multiple small changes into a single, cleaner commit. <br>
-idi old commit ni new 
 <img width="642" height="210" alt="image" src="https://github.com/user-attachments/assets/8a2de944-639b-49af-b5aa-e07378ebf0ca" /><br>
 <br>
 Idi bad commit ni modify cheyadaniki kuda use cheyochhu, for eg: nuvvu oka commit msg "fix" ani ichavu anuko it doesnot give any meaning to the commit, so nuvvu appudu em cheyochu ante just __git commit --amend -m "Bug fixed in validation.js"__ ani ivochu so that same modification ni good commit message tho commit log lo replace cheyochu<br>
