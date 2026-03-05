@@ -51,7 +51,8 @@
   Syntax: git clone "repo-url"<br>
   Purpose: used to create a local, working copy of an existing remote repository. This copy includes all files, branches, and the complete commit history of the project. <br>
   Example: Suppose your company has a remote repository named Project-timepass, and wanted your team to work on that, so everyone creates a clone in their local repository and works on that project,<br>
- <img width="752" height="54" alt="image" src="https://github.com/user-attachments/assets/43493aad-bd1a-4a30-9ae3-28920f3a8bd2" />
+ <img width="786" height="124" alt="image" src="https://github.com/user-attachments/assets/41c040a4-979b-49e6-b18a-b4328da7ae40" />
+
  <br>
 
 3)Command: git clone --branch<br>
@@ -131,36 +132,56 @@ Shows what changes you made before committing <br>
 1)Command: git add<br>
   Syntax: git add <file-name><br>
   Purpose: manam local ga edit chesina modify chesina create chesina files anni git loki add cheyadam kosam git add use chestham.<br>
-  Example: 
+  Example: For suppose, nenu oka new file ni create chesa, adi untracked stage lo untundi ante git ki telsu file undi ani kani track cheyaledhu, alantappudu git add command use chesthe file tracking start avutundi(love track shuru roii❤️ )<br>
+<img width="609" height="559" alt="image" src="https://github.com/user-attachments/assets/38d28f0c-4180-40aa-b87f-33b2a7c0858d" /><br>
 
 2)Command: git add .<br>
   Syntax: git add .<br>
-  Purpose: <br>
+  Purpose:current directory lo unna anni files ni staging area loki pampistundhi <br>
   Example: <br>
+  <img width="524" height="162" alt="image" src="https://github.com/user-attachments/assets/f4d23faa-1ac7-4ca4-b029-e3086a349496" /><br>
 
 3)Command: git add -p<br>
-  Purpose: <br>
-  Example: 
+ __git add -p__ means interactive staging of changes.<br>
+  Purpose:Git changes ni small chunks (patches / hunks) ga break chesi,which changes to stage ani developer ni adugutundi.<br>
+So developer line-level control maintain cheyyachu. <br>
+  Example:Suppose nuvvu styles.css ane file lo two changes chesavu, __git add styles.css__ chesthe anni changes single commit lo mix aipotayi. So ala kakunda single change ni commit cheyali anukunte, git add -p use cheyochu.Every change ni git __"stage this change?"__ ani adugutundi. <br>
+  <img width="601" height="412" alt="image" src="https://github.com/user-attachments/assets/ab9b4638-a70e-41f9-a690-4063e3ce6f2a" />
+<br>
 
 4)Command: git restore<br>
-  Syntax: <br>
-  Purpose: <br>
+  Syntax: git restore <file-name> <br>
+  Purpose:git restore lets you bring a file back to its previous version.Ante last commit stage ki vastundhi <br>
+  This permanently deletes the local modifications.<br>
   Example: <br>
+  <img width="685" height="277" alt="image" src="https://github.com/user-attachments/assets/14dddf5d-d2e1-46e5-a7e0-88acb0f7c0bb" /><br>
+
 
 5)Command: git restore --staged <br>
-  Syntax: <br>
-  Purpose: <br>
+  Syntax:git restore --staged <file-name> <br>
+  Purpose:file staging area nundi remove avuthundi but changes still working directory lo untayi <br>
+  This command is used to unstage changes that have been added to the staging area (index), but have not yet been committed. The changes themselves remain in your working directory.<br>
   Example: <br>
+  <img width="690" height="232" alt="image" src="https://github.com/user-attachments/assets/213dd3ba-0a26-41ae-bc2f-6d8f791ff6d7" /><br>
+
 
 6)Command: git rm <br>
-  Syntax: <br>
-  Purpose: <br>
+  Syntax: git rm <file-name><br>
+  Purpose: it is used to delete a file from both the working directory and Git tracking. <br>
   Example: <br>
+  <img width="628" height="163" alt="image" src="https://github.com/user-attachments/assets/1c4c6917-2f45-4068-b876-8454ec9d2977" /><br>
+
 
 7)Command: git mv<br>
-  Syntax: <br>
-  Purpose: <br>
-  Example: <br>
+  Syntax: git mv <old-file-name> <new-file-name><br> 
+  or <br>
+  git mv <file> <new-folder>/ <br>
+
+  Purpose:The git mv command is used to move or rename files and directories within a Git repository and automatically stages the change for commit <br>
+  Example:Renaming a file in the repository <br>
+  <img width="628" height="163" alt="image" src="https://github.com/user-attachments/assets/12d1894c-757c-42e3-9e7f-918389041945" /><br>
+  Example: moving a file from one directory to the other in the repository.<br>
+  <img width="623" height="141" alt="image" src="https://github.com/user-attachments/assets/4f68350e-ded0-463a-973f-efb660b4cdbb" /><br>
 
 >5)Commit Commands
 
@@ -468,4 +489,3 @@ Shows what changes you made before committing <br>
   Syntax: <br>
   Purpose: <br>
   Example: <br>
-  
