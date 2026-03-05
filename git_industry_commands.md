@@ -41,7 +41,7 @@
 >2)Repository Setup Commands
 <br>
 1) Command: git init <br>
-   Syntax: git init <directory> <br>
+   Syntax: git init "directory" <br>
    Purpose: used to create a new, empty Git repository in a specified or the current directory.<br>
    Example: for suppose we created a Git_Demo and initialised it as a local git repository.<br>
    <img width="586" height="76" alt="image" src="https://github.com/user-attachments/assets/38fcbb40-5133-492a-b97b-0a359e1aa880" /> <br>
@@ -56,14 +56,14 @@
  <br>
 
 3)Command: git clone --branch<br>
-  Syntax: git clone --branch <branch-name> <repo-link><br>
+  Syntax: git clone --branch branch-name repo-link <br>
   Purpose: to clone a specific branch from a remote repository<br>
   Example: Repo lo branch → feature-login 
   <br>Local lo branch levu → default branch main matrame clone avuthundi<br>
  <img width="883" height="140" alt="image" src="https://github.com/user-attachments/assets/479a2f81-2119-48b2-b509-b1f89d077852" /><br>
 
 4)Command: git clone --depth <br>
-  Syntax: git clone --depth <n> <repository-url> [destination-folder] <br>
+  Syntax: git clone --depth n repository-url [destination-folder] <br>
   Purpose: create a shallow clone of a repository, which significantly reduces download time and disk space usage by limiting the commit history to a specified number of recent commits<br>
   <img width="883" height="140" alt="image" src="https://github.com/user-attachments/assets/68fc9cae-eab3-46f2-b556-9e80a1666468" /> <br>
 
@@ -115,7 +115,7 @@ Shows what changes you made before committing <br>
 <img width="605" height="229" alt="image" src="https://github.com/user-attachments/assets/e92342b7-6233-41b3-b16c-c309b2792235" /><br>
 
 7)Command: git blame <br>
-  Syntax: git blame <file-path> <br>
+  Syntax: git blame file-path <br>
   Purpose:helps developers trace the history of a file by annotating each line with information about the last revision and author who modified it.<br>
   <img width="885" height="443" alt="image" src="https://github.com/user-attachments/assets/831bd90d-e404-4747-ada3-0d481f377d68" /><br>
   <img width="886" height="124" alt="image" src="https://github.com/user-attachments/assets/8270f981-0c7e-4022-9dec-1bc1b69f7305" /><br>
@@ -130,7 +130,7 @@ Shows what changes you made before committing <br>
 
 >4)File Tracking Commands
 1)Command: git add<br>
-  Syntax: git add <file-name><br>
+  Syntax: git add file-name<br>
   Purpose: manam local ga edit chesina modify chesina create chesina files anni git loki add cheyadam kosam git add use chestham.<br>
   Example: For suppose, nenu oka new file ni create chesa, adi untracked stage lo untundi ante git ki telsu file undi ani kani track cheyaledhu, alantappudu git add command use chesthe file tracking start avutundi(love track shuru roii❤️ )<br>
 <img width="609" height="559" alt="image" src="https://github.com/user-attachments/assets/38d28f0c-4180-40aa-b87f-33b2a7c0858d" /><br>
@@ -150,7 +150,7 @@ So developer line-level control maintain cheyyachu. <br>
 <br>
 
 4)Command: git restore<br>
-  Syntax: git restore <file-name> <br>
+  Syntax: git restore file-name <br>
   Purpose:git restore lets you bring a file back to its previous version.Ante last commit stage ki vastundhi <br>
   This permanently deletes the local modifications.<br>
   Example: <br>
@@ -158,7 +158,7 @@ So developer line-level control maintain cheyyachu. <br>
 
 
 5)Command: git restore --staged <br>
-  Syntax:git restore --staged <file-name> <br>
+  Syntax:git restore --staged file-name <br>
   Purpose:file staging area nundi remove avuthundi but changes still working directory lo untayi <br>
   This command is used to unstage changes that have been added to the staging area (index), but have not yet been committed. The changes themselves remain in your working directory.<br>
   Example: <br>
@@ -166,16 +166,16 @@ So developer line-level control maintain cheyyachu. <br>
 
 
 6)Command: git rm <br>
-  Syntax: git rm <file-name><br>
+  Syntax: git rm file-name <br>
   Purpose: it is used to delete a file from both the working directory and Git tracking. <br>
   Example: <br>
   <img width="628" height="163" alt="image" src="https://github.com/user-attachments/assets/1c4c6917-2f45-4068-b876-8454ec9d2977" /><br>
 
 
 7)Command: git mv<br>
-  Syntax: git mv <old-file-name> <new-file-name><br> 
+  Syntax: git mv old-file-name new-file-name<br> 
   or <br>
-  git mv <file> <new-folder>/ <br>
+  git mv file new-folder/ <br>
 
   Purpose:The git mv command is used to move or rename files and directories within a Git repository and automatically stages the change for commit <br>
   Example:Renaming a file in the repository <br>
