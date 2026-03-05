@@ -125,3 +125,345 @@ Shows what changes you made before committing <br>
 9)Command: git shortlog<br> 
   Purpose: used to summarize the output of git log by grouping commits by author<br>
   <img width="853" height="328" alt="image" src="https://github.com/user-attachments/assets/c026c361-360c-4719-b0d7-ccc9f3ac19cf" /><br>
+
+>4)File Tracking Commands
+1)Command: git add<br>
+  Syntax: git add <file-name><br>
+  Purpose: manam local ga edit chesina modify chesina create chesina files anni git loki add cheyadam kosam git add use chestham.<br>
+  Example: 
+
+2)Command: git add .<br>
+  Syntax: git add .<br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git add -p<br>
+  Purpose: <br>
+  Example: 
+
+4)Command: git restore<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+5)Command: git restore --staged <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+6)Command: git rm <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+7)Command: git mv<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>5)Commit Commands
+
+1)Command: git commit <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command: git commit -m
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git commit --amend<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command: git commit --no-edit
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>6)Branch Management Commands
+
+1)Command: git branch<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command:git branch -a<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command:git branch -d <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command:git branch -D <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+5)Command:git checkout<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+6)Command:git checkout<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+7)Command:git switch<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+8)Command:git switch -c<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>7)Merge & Integration Commands
+
+1)Command: git merge<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command:git merge --no-ff <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>8)Remote Repository Commands
+
+1)Command: git remote<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command: git remote -v<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git remote add<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command: git remote remove<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+5)Command:git fetch <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+6)Command:git fetch --all <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+7)Command: git pull<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+8)Command: git pull --rebase<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+9)Command:git push <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+10)Command:git push -u origin branch-name<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+11)Command:git push --force<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>9)Stash Commands
+
+1)Command: git stash<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command:git stash list <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git stash pop<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command: git stash apply<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+5)Command: git stash drop<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+6)Command: git stash clear<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>10)Reset & Undo Commands
+
+1)Command:git reset<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command:git reset --soft <br>
+  Syntax: <br> 
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git reset --mixed<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command:git reset --hard <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+5)Command: git revert<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+6)Command:git clean -f <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+7)Command: git clean -fd<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>11)Rebasing Commands
+
+1)Command: git rebase<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command: git rebase -i<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git rebase --continue <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command: git rebase --abort<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>12)Cherry Pick & Patch Commands
+
+1)Command: git cherry-pick<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command: git format-patch<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git apply<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command:git am <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>13)Tagging Commands
+
+1)Command: git tag <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command: git tag -a <br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git tag -d<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command: git push origin --tags<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>14)Submodule Commands
+
+1)Command: git submodule add<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command: git submodule init<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command: git submodule update<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+>15)Debugging Commands
+
+1)Command: git bisect<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+2)Command:git bisect start<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+3)Command:git bisect good<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
+
+4)Command:git bisect bad<br>
+  Syntax: <br>
+  Purpose: <br>
+  Example: <br>
