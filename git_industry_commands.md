@@ -223,19 +223,26 @@ Idi bad commit ni modify cheyadaniki kuda use cheyochhu, for eg: nuvvu oka commi
 >6)Branch Management Commands
 
 1)Command: git branch<br>
-  Syntax: <br>
-  Purpose: <br>
-  Example: <br>
+  Syntax: git branch [options] [branch-name] <br>
+  Purpose: it shows all the local branches in your repository.<br>
+  Example: A developer wants to check all the branches before starting the work, so he can use git branch to see the local branches<br>
+  <img width="494" height="108" alt="image" src="https://github.com/user-attachments/assets/192456df-c5b7-43fb-bbf2-9e286e9cffa0" /><br>
+  Example2: For suppose, nee teammates create chesina branches kuda chudali ante <br>
+  *git branch -r* ani ivvochu<br>
+  <img width="491" height="143" alt="image" src="https://github.com/user-attachments/assets/beeeb90b-5453-4ad6-82e7-2d09cf3bd3f7" /><br>
 
 2)Command:git branch -a<br>
-  Syntax: <br>
-  Purpose: <br>
-  Example: <br>
+  Syntax: git branch -a <br>
+  Purpose: shows both local + remote branches. <br>
+  <img width="401" height="233" alt="image" src="https://github.com/user-attachments/assets/c437ae9c-e8b7-4575-9aad-5691b1b529b7" /><br>
 
 3)Command:git branch -d <br>
-  Syntax: <br>
-  Purpose: <br>
-  Example: <br>
+  Syntax: git branch -d [branch-name] <br>
+  Purpose:deletes a branch from the <br>
+  Example:Imagine a patient gets a wound.<br>
+Doctor cleans the wound Applies bandage, After some days the wound heals.The bandage is removed and thrown away,Because its purpose is finished.<br>
+Branches in Git work the same way. A feature branch is like a bandage. <br>
+<img width="563" height="38" alt="image" src="https://github.com/user-attachments/assets/2dbf8f08-3d85-4b8f-ba7b-f15d0ad05e51" /><br>
 
 4)Command:git branch -D <br>
   Syntax: <br>
