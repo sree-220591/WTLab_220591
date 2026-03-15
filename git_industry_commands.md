@@ -247,7 +247,7 @@ Branches in Git work the same way. A feature branch is like a bandage. <br>
 4)Command:git branch -D <br>
   __Syntax__: git branch -D [branch-name] <br>
   __Purpose__: It deletes a branch from your local repository, even if that branch has unmerged commits. Deletes a branch even if it is not merged. <br>
-  Example: <br>
+  Example: /home/user/Pictures/Screenshots/Screenshot from 2026-03-15 20-57-30.png<br>
 
 5)Command:git checkout<br>
   Syntax: <br>
